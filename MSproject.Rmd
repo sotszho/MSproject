@@ -20,7 +20,11 @@ After the last financial crisis, the European Union has recognised that investme
 
 ```{r pressure, echo=FALSE}
 sm <- read.csv("student-mat.csv", sep=';')
+
+summary(sm[,"age"])
 ```
+
+The data set examined provides sample data of two secondary schools in Portugal. The ages of students varies from 15 to 22 years with an average of 16.7 years. 
 
 
 ## Descriptive Statistics 
