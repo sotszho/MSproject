@@ -8,11 +8,21 @@ Data set source: P. Cortez and A. Silva. Using Data Mining to Predict Secondary 
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## GitHub Documents
+## Students' Alcohol Consumption impacts on academic Results on the example of a secondary Scool Maths Class in Portugal
 
-This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+## Introduction 
 
-## Including Code
+After the last financial crisis, the European Union has recognised that investments are required in order to reverse the latest trends in economic growth decline by creating new jobs and a better educated workforce. Hence, the European Comission has set up a ‘Strategy for smart, sustainable and inclusive growth’ (European Comission, 2010), where a crucial part of investment is to contribute to the education of the next generations: The aim is to reduce the share of early school leavers to below 10% and ensure that at least 40% of the younger generation obtain a tertiary degree. In the following, the current educational condition in Europe will be investigated and an examplary deeper analysis on one of the greater affected countries, Portugal, will be provided in order to gain an understanding of factors influencing the academic achievements in secondary school, which are crucial for students to enter tertiary education and subsequently performing well in their working career. 
+
+
+## Description of Dataset
+
+```{r pressure, echo=FALSE}
+sm <- read.csv("student-mat.csv", sep=';')
+```
+
+
+## Descriptive Statistics 
 
 You can include R code in the document as follows:
 
@@ -20,9 +30,9 @@ You can include R code in the document as follows:
 summary(cars)
 ```
 
-## Including Plots
+## Correlation Analysis
 
-You can also embed plots, for example:
+Text
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
@@ -31,6 +41,3 @@ plot(pressure)
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 
-```{r pressure, echo=FALSE}
-sm <- read.csv("student-mat.csv", sep=';')
-```
